@@ -3,7 +3,6 @@ import "./App.css"
 import { Header } from "./components/Header"
 import { Footer } from "./components/Footer"
 import { QuillEditor } from "./components/QuillEditor"
-import { SpeedInsights } from "@vercel/speed-insights/next"
 
 const App = () => {
   return (
@@ -12,7 +11,6 @@ const App = () => {
       {/* <Main /> */}
       <QuillEditor />
       <Footer />
-      <SpeedInsights />
     </>
   )
 }

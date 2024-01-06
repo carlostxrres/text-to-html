@@ -14,6 +14,10 @@ The point of this app is offering a feature not commonly found in similar online
 - **Elegant and minimalist UI**: Designed with simplicity in mind, the interface incorporates elements from [Material Design components](https://mui.com/).
 - **Efficient clipboard integration**: Offers a convenient feature to instantly copy generated HTML code to your clipboard with just one click.
 
+## Current bugs
+
+- Issues when pressing key "e" on the Save dialog box
+
 ## Possible future features
 
 - Alternate Quill's "snow" and "bubble" themes using a button in the main menu

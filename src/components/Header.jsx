@@ -5,7 +5,7 @@ export function Header() {
   return (
     <header>
       <span className="wrapper">
-        <img src="../src/assets/logo3.svg" className="logo" />
+        <img src="../../logo3.svg" className="logo" />
         <h1>Text to HTML</h1>
       </span>
       <span>
