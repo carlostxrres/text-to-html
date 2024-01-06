@@ -44,6 +44,16 @@ export function Footer() {
         >
           carlostxrres
         </a>
+        {" | "}
+        See project in{" "}
+        <a
+          href="https://github.com/carlostxrres/text-to-html"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="discrete-anchor"
+        >
+          GitHub
+        </a>
       </span>
       {INCLUDE_LINKS && (
         <ul className="wrapper">
