@@ -4,6 +4,7 @@ import { FancyText } from "./FancyText"
 // import Typography from "@mui/material/Typography"
 
 export function Footer() {
+  const INCLUDE_LINKS = false
   const footerButtons = [
     {
       name: "Terms",
@@ -25,20 +26,32 @@ export function Footer() {
 
   return (
     <footer>
-      <span>Made by carlostxrres</span>
-      <ul className="wrapper">
-        {footerButtons.map(({ name, paragraphs }, index) => {
-          return (
-            <li key={index}>
-              <DialogButton
-                dialogTitle={name}
-                buttonText={name}
-                dialogText={<FancyText paragraphs={paragraphs} />}
-              />
-            </li>
-          )
-        })}
-      </ul>
+      <span>
+        Made by{" "}
+        <a
+          href="https://github.com/carlostxrres"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="discrete-anchor"
+        >
+          carlostxrres
+        </a>
+      </span>
+      {INCLUDE_LINKS && (
+        <ul className="wrapper">
+          {footerButtons.map(({ name, paragraphs }, index) => {
+            return (
+              <li key={index}>
+                <DialogButton
+                  dialogTitle={name}
+                  buttonText={name}
+                  dialogText={<FancyText paragraphs={paragraphs} />}
+                />
+              </li>
+            )
+          })}
+        </ul>
+      )}
     </footer>
   )
 }
