@@ -1,0 +1,12 @@
+{
+    "the-a-href-attribute-example": {
+        "title": "The A Href Attribute Example",
+        "content": "<html>\n  <head>\n    <title>Href Attribute Example</title>\n  </head>\n  <body>\n    <h1>Href Attribute Example</h1>\n    <p>\n      <a href=\"https://www.freecodecamp.org/contribute/\">The freeCodeCamp Contribution Page</a> shows you how and where you can contribute to freeCodeCamp's community and growth.\n    </p>\n  </body>\n</html>",
+        "lastSaveDate": 1698313511362
+    },
+    "the-body-bgcolor-attribute-example": {
+        "title": "The Body Bgcolor Attribute Example",
+        "content": "<html>\n  <head>\n    <title>Body bgcolor Attribute example</title>\n  </head>\n  <body bgcolor=\"#afafaf\">\n    <h1>This webpage has colored background.</h1>\n  </body>\n</html>",
+        "lastSaveDate": 1698313601386
+    }
+}

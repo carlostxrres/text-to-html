@@ -1,0 +1,30 @@
+main {
+    width: 100vw;
+    background: #333;
+    border-width: 1px 0;
+    border-style: solid;
+    border-color: #666;
+    display: flex;
+    box-sizing: border-box;
+}
+
+.pane {
+    /* padding: 1em; */
+    /* color: #fff; */
+    min-width: 500px;
+    box-sizing: border-box;
+}
+
+.right {
+    position: relative;
+}
+
+.gutter {
+    width: 10px;
+    height: 100%;
+    background: #666;
+    position: absolute;
+    top: 0;
+    left: 0;
+    cursor: col-resize;
+}

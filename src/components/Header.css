@@ -1,0 +1,47 @@
+header,
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    gap: 1rem;
+
+    .wrapper {
+        display: flex;
+        gap: 1rem;
+        align-items: center;
+
+        li {
+            list-style: none;
+        }
+    }
+
+    h1 {
+        font-size: 1.5rem;
+        margin: 0;
+
+        display: flex;
+        gap: 1rem;
+    }
+}
+
+footer {
+    color: #666;
+}
+
+.logo {
+    object-fit: contain;
+    width: 3rem;
+    aspect-ratio: 1;
+    fill: white;
+}
+
+.discrete-anchor {
+    color: inherit;
+    text-decoration: none;
+    transition: color 0.1s ease-in-out;
+
+    &:hover {
+        color: #e2777a;
+    }
+}
