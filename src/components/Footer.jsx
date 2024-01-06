@@ -7,6 +7,14 @@ export function Footer() {
   const INCLUDE_LINKS = false
   const footerButtons = [
     {
+      name: "About",
+      paragraphs: [
+        "Hola!",
+        "Explicación de la web.",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod, nisl eget ultricies aliquam, nunc nisl aliquet nunc, quis aliquam.",
+      ],
+    },
+    {
       name: "Terms",
       paragraphs: [
         "Hola!",
