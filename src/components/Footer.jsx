@@ -1,6 +1,7 @@
 import "./Header.css"
 import { DialogButton } from "./DialogButton"
 import { FancyText } from "./FancyText"
+import { FooterAnchor } from "./FooterAnchor"
 // import Typography from "@mui/material/Typography"
 
 export function Footer() {
@@ -35,25 +36,18 @@ export function Footer() {
   return (
     <footer>
       <span>
-        Made by{" "}
-        <a
+        <FooterAnchor
+          prevText="Made by"
+          anchorText="carlostxrres"
           href="https://github.com/carlostxrres"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="discrete-anchor"
-        >
-          carlostxrres
-        </a>
-        {" | "}
-        See project in{" "}
-        <a
+        />
+      </span>
+      <span>
+        <FooterAnchor
+          prevText="See project in"
+          anchorText="GitHub"
           href="https://github.com/carlostxrres/text-to-html"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="discrete-anchor"
-        >
-          GitHub
-        </a>
+        />
       </span>
       {INCLUDE_LINKS && (
         <ul className="wrapper">

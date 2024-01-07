@@ -3,86 +3,86 @@
 /**/
 
 .ql-snow .ql-picker {
-    color: inherit;
+  color: inherit;
 }
 
 .ql-snow .ql-stroke {
-    stroke: currentColor;
+  stroke: currentColor;
 }
 
 .ql-snow .ql-stroke-miter {
-    stroke: currentColor;
+  stroke: currentColor;
 }
 
 .ql-snow .ql-fill,
 .ql-snow .ql-stroke.ql-fill {
-    fill: currentColor;
+  fill: currentColor;
 }
 
 /**/
 
 .ql-toolbar.ql-snow {
-    border: none;
-    border-bottom: var(--section-border);
+  border: none;
+  border-bottom: var(--section-border);
 }
 
 .ql-container.ql-snow {
-    border: none;
+  border: none;
 }
 
 /**/
 .ql-toolbar.ql-snow,
 .toolbar {
-    padding: 0 1rem;
-    height: var(--toolbar-height);
-    display: flex;
-    align-items: center;
-    border-bottom: var(--section-border);
-    box-sizing: border-box;
-    background-color: var(--background-color);
+  padding: 0 1rem;
+  height: var(--toolbar-height);
+  display: flex;
+  align-items: center;
+  border-bottom: var(--section-border);
+  box-sizing: border-box;
+  background-color: var(--background-color);
 }
 
 .ql-editor,
 .output-content {
-    padding: 1rem;
+  padding: 1rem;
 
-    overflow: scroll;
-    height: calc(80vh - var(--toolbar-height));
+  overflow: scroll;
+  height: calc(80vh - var(--toolbar-height));
 }
 
 /**/
 
 .ql-editor {
-    z-index: 0;
-    position: relative;
-    background-color: var(--background-color-main);
+  z-index: 0;
+  position: relative;
+  background-color: var(--background-color-main);
 }
 
 .output {
-    background-color: var(--background-color-main);
+  background-color: var(--background-color-main);
 }
 
 .ql-snow .ql-picker-options {
-    background-color: var(--background-color);
+  background-color: var(--background-color);
 }
 
 /***/
 
 .ql-container {
-    font-family: inherit;
-    font-size: inherit;
+  font-family: inherit;
+  font-size: inherit;
 }
 
 /* (overriding Prism styles) */
 :not(pre)>code[class*="language-"],
 pre[class*="language-"] {
-    background: none;
-    white-space: pre-wrap;
+  background: var(--background-color-main) !important;
+  white-space: pre-wrap;
 }
 
 code {
-    white-space: pre-wrap !important;
-    word-wrap: break-word !important;
+  white-space: pre-wrap !important;
+  word-wrap: break-word !important;
 }
 
 
@@ -90,11 +90,11 @@ code {
 
 
 .ql-editor .ql-color-blue {
-    color: var(--main-color);
+  color: var(--main-color);
 }
 
 .ql-editor .ql-bg-blue {
-    background-color: var(--main-color);
+  background-color: var(--main-color);
 }
 
 .ql-snow.ql-toolbar button:hover,
@@ -111,7 +111,7 @@ code {
 .ql-snow .ql-toolbar .ql-picker-item:hover,
 .ql-snow.ql-toolbar .ql-picker-item.ql-selected,
 .ql-snow .ql-toolbar .ql-picker-item.ql-selected {
-    color: var(--main-color);
+  color: var(--main-color);
 }
 
 .ql-snow.ql-toolbar button:hover .ql-fill,
@@ -142,7 +142,7 @@ code {
 .ql-snow .ql-toolbar .ql-picker-item:hover .ql-stroke.ql-fill,
 .ql-snow.ql-toolbar .ql-picker-item.ql-selected .ql-stroke.ql-fill,
 .ql-snow .ql-toolbar .ql-picker-item.ql-selected .ql-stroke.ql-fill {
-    fill: var(--main-color);
+  fill: var(--main-color);
 }
 
 .ql-snow.ql-toolbar button:hover .ql-stroke,
@@ -173,11 +173,11 @@ code {
 .ql-snow .ql-toolbar .ql-picker-item:hover .ql-stroke-miter,
 .ql-snow.ql-toolbar .ql-picker-item.ql-selected .ql-stroke-miter,
 .ql-snow .ql-toolbar .ql-picker-item.ql-selected .ql-stroke-miter {
-    stroke: var(--main-color);
+  stroke: var(--main-color);
 }
 
 .ql-snow a {
-    color: var(--main-color);
+  color: var(--main-color);
 }
 
 /* 
