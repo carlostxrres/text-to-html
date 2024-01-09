@@ -30,11 +30,24 @@ export function QuillEditor() {
 
   const modules = {
     toolbar: [
-      [{ header: [1, 2, 3, false] }],
-      ["bold", "italic", "underline", "blockquote"], // "strike"
+      [{ header: [1, 2, 3, false] }], // 4, 5, 6
+      ["bold", "italic", "underline", "strike"],
+      ["blockquote", 'code-block'],
       [{ list: "ordered" }, { list: "bullet" }],
-      //   ["link", "image"],
+      ["link", "image"],
       ["clean"],
+
+      // [{ 'script': 'sub'}, { 'script': 'super' }],
+      [{ 'indent': '-1'}, { 'indent': '+1' }],
+      // [{ 'direction': 'rtl' }],
+    
+      [{ 'size': ['small', false, 'large', 'huge'] }],
+    
+      [{ 'color': [] }, { 'background': [] }],
+      // [{ 'font': [] }],
+      [{ 'align': [] }],
+    
+      ['clean']      
     ],
     history: {
       delay: 2000,
