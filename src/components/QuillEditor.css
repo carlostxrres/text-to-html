@@ -7,12 +7,12 @@
 }
 
 .ql-snow .ql-stroke {
-  color: #ffffff;
-  stroke: currentColor !important;
+/*   color: #ffffff; */
+  stroke: currentColor;
 }
 
 .ql-snow .ql-stroke-miter {
-  stroke: currentColor !important;
+  stroke: currentColor;
 }
 
 .ql-snow .ql-fill,
