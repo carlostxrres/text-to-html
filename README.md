@@ -1,4 +1,4 @@
-# Text-to-HTML Converter: Persistence-Focused React Learning Project
+# Text-to-HTML Converter: Persistence-Focused HTML parser
 
 Welcome to my inaugural React project, a simple web app designed to compose rich text and turn it into HTML. This app is the first step of my journey in learning React, and it does not adhere to best practices.
 
