@@ -20,11 +20,12 @@ The point of this app is offering a feature not commonly found in similar online
 
 ## Possible future features
 
-- Use IndexedDB instead of localStorage for persistance
-- Alternate Quill's "snow" and "bubble" themes using a button in the main menu
-- Make sections resizable on mouse drag
-- Add a "light mode" option
-- Keyboard navigation:
-  - Save on Control+S
-  - Load on Control+O
-  - In dialog boxes, confirm on Enter and cancel on Escape
+- [x] In template dialogs, add a text input to filter existing savedtemplates
+- [ ] Use IndexedDB instead of localStorage for persistance
+- [ ] Alternate Quill's "snow" and "bubble" themes using a button in the main menu
+- [ ] Make sections resizable on mouse drag
+- [ ] Add a "light mode" option
+- [ ] Keyboard navigation:
+  - [ ] Save on Control+S
+  - [ ] Load on Control+O
+  - [ ] In dialog boxes, confirm on Enter and cancel on Escape
